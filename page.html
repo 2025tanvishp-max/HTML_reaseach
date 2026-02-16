@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hidden Power of HTML – Brainrot Edition</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00c6ff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+progress {
+    width: 200px;
+}
+
+figure {
+    width: 220px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 6px;
+    filter: contrast(150%) saturate(160%) blur(0.3px);
+    image-rendering: pixelated;
+    box-shadow: 0 0 15px red;
+}
+
+figcaption {
+    font-size: 0.8em;
+    opacity: 0.85;
+    margin-top: 5px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+cite {
+    font-size: 0.7em;
+    opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🚀 Hidden Power of HTML5</h1>
+
+<!-- 1. Progress -->
+<section>
+    <h2>1. Task Completion</h2>
+    <label>Project Completion:</label><br><br>
+    <progress value="70" max="100"></progress>
+</section>
+
+<!-- 2. Output -->
+<section>
+    <h2>2. Live Calculator (output)</h2>
+    <input type="number" id="num1" value="5">
+    +
+    <input type="number" id="num2" value="5">
+    =
+    <output id="result">10</output>
+</section>
+
+<!-- 3. Datalist -->
+<section>
+    <h2>3. Smart Suggestions (datalist)</h2>
+    <input list="languages" placeholder="Choose a language">
+    <datalist id="languages">
+        <option value="HTML">
+        <option value="CSS">
+        <option value="JavaScript">
+        <option value="Python">
+    </datalist>
+</section>
+
+<!-- 4. Template -->
+<section>
+    <h2>4. Hidden Template</h2>
+    <button onclick="addCard()">Generate Card</button>
+    <div id="cardContainer"></div>
+
+    <template id="cardTemplate">
+        <div style="margin:10px; padding:10px; background:white; color:black; border-radius:5px;">
+            <h3>Dynamic Card</h3>
+            <p>This card was created using the template tag.</p>
+        </div>
+    </template>
+</section>
+
+<!-- 5. Brainrot Museum -->
+<main>
+    <h2>5. Archived Brainrot Relics (2016–2025)</h2>
+
+    <section style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+
+        <figure>
+            <img src="https://i.pinimg.com/1200x/23/41/4b/23414bc9c6c4bc09b5d2415916e6dd4a.jpg" alt="Burning Book">
+            <figcaption>
+                Academic enlightenment phase. Knowledge rejected.
+            </figcaption>
+        </figure>
+
+        <figure>
+    <img src="https://i.pinimg.com/736x/b2/07/28/b20728010ea2605cc96a8622ab4752b5.jpg" alt="Unexplained Prophecy Core">
+    <figcaption>
+    4 pixels. 1000 aura.  
+    Origin unknown. Influence undeniable.
+</figcaption>
+
+</figure>
+
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/04/63/b2/0463b2368ff3f6cf30d2438e7fa802ef.jpg" alt="Yuno Ball">
+            <figcaption>
+                Senior quote energy detected.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/07/e0/4a/07e04a1114a06d25da9bbc7cc91049da.jpg" alt="Lion Confrontation">
+            <figcaption>
+                Gem detected. Aggression levels rising.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/5d/98/3f/5d983ff0ea16c7a59a0e8ac310b8e6f2.jpg" alt="I mean I guess bro">
+            <figcaption>
+                <blockquote>“I mean I guess bro.”</blockquote>
+                <cite>— Courtroom Philosophy, 2020</cite>
+            </figcaption>
+        </figure>
+
+    </section>
+</main>
+<!-- 6. Cultural Artifact Study -->
+<section style="margin-top:60px;">
+    <h2>6. Cultural Artifact Analysis</h2>
+
+    <article style="max-width:400px; margin:auto;">
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/4b/56/4e/4b564e478b279ad445042ead919b7f09.jpg" 
+                 alt="Motivational Poster Core">
+            <figcaption>
+                <mark>Inspirational energy detected.</mark><br>
+                Message unclear. Confidence absolute.
+            </figcaption>
+        </figure>
+
+        <p style="font-size:0.8em; opacity:0.7;">
+            Archived: <time datetime="2018">Circa 2018 Internet Era</time>
+        </p>
+
+    </article>
+</section>
+<!-- 7. Existential Meme Doctrine -->
+<section style="margin-top:60px;">
+    <h2>7. Existential Meme Doctrine</h2>
+
+    <article style="max-width:400px; margin:auto;">
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/7c/a4/b6/7ca4b619b7ffcb7a92d30d82ea461f4d.jpg"
+                 alt="Existential Meme Core">
+            <figcaption>
+                Reality questioned. Pixels insufficient.
+            </figcaption>
+        </figure>
+
+        <p>
+            Cultural Impact Index:
+            <meter value="94" min="0" max="100"></meter>
+        </p>
+
+        <p style="font-size:0.8em; opacity:0.7;">
+            First Observed: 
+            <time datetime="2019">Late 2019 Algorithm Surge</time>
+        </p>
+
+    </article>
+</section>
+<!-- 8. Algorithmic Revelation Archive -->
+<section style="margin-top:60px;">
+    <h2>8. Algorithmic Revelation Archive</h2>
+
+    <article style="max-width:400px; margin:auto;">
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/94/f2/ed/94f2ed14f5b4ea2f94a73f48138f9b8a.jpg"
+                 alt="Algorithm Revelation Core">
+            <figcaption>
+                Statement delivered with confidence.
+                Evidence optional.
+            </figcaption>
+        </figure>
+
+        <p>
+            Certainty Level:
+            <meter value="99" min="0" max="100"></meter>
+        </p>
+
+        <p style="font-size:0.8em; opacity:0.7;">
+            Classification Date:
+            <time datetime="2020">Peak Facebook Philosophy Era</time>
+        </p>
+
+    </article>
+</section>
+
+
+
+<script>
+const n1 = document.getElementById("num1");
+const n2 = document.getElementById("num2");
+const result = document.getElementById("result");
+
+function calculate() {
+    result.value = Number(n1.value) + Number(n2.value);
+    result.textContent = result.value;
+}
+
+n1.oninput = calculate;
+n2.oninput = calculate;
+
+function addCard() {
+    const template = document.getElementById("cardTemplate");
+    const clone = template.content.cloneNode(true);
+    document.getElementById("cardContainer").appendChild(clone);
+}
+</script>
+
+</body>
+</html>
